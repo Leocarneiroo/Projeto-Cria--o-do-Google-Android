@@ -1,0 +1,132 @@
+
+@font-face {
+  font-family: 'Android';
+  src: url('./fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  text-indent: 30px;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: bold;
+  background-color: #66e49f;
+  padding: 0px 2px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #2FA866, #66e49f);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  min-width: 320px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header > ul {
+  list-style: none;
+}
+
+header > ul > li {
+  display: inline;
+  padding: 10px;
+  font-weight: bold;
+}
+
+header > ul > li:hover {
+  background-color: #1A5C38;
+  transition-duration: 0.5;
+  border-radius: 5px;
+}
+
+header > h1, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.733);
+}
+
+header > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  min-width: 320px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: Android;
+  color: #2c573f;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #C5EBD5, transparent);
+}
+
+picture {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+img#bugdroid {
+  max-width: 350px;
+}
+
+div#videos {
+  background-color: #1A5C38;
+  padding: 20px 30px;
+  text-align: center;
+  padding-bottom: 59%;
+  position: relative;
+}
+
+div#videos > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+section#extra {
+  background-color: #C5EBD6;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+section#extra > h3 {
+  background-color: #2FA866;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+}
+
+section#extra > ul {
+  display: inline-block;
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #1A5C38;
+  color: white;
+  padding: 4px;
+}
+
+footer > a {
+  text-decoration: underline;
+  color: white;
+}
